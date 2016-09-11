@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Sands\\Presenter\\Excel": "src/"
+            "Sands\\Presenter\\Excel\\": "src/"
         }
     },
     "minimum-stability": "stable",
