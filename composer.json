@@ -1,0 +1,25 @@
+{
+    "name": "sands/laravel-presenter-excel",
+    "description": "Laravel Presenter plugin to respond with MS Excel files: XLSX, XLS and CSV.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Zulfa Juniadi bin Zulkifli",
+            "email": "zulfajuniadi@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4",
+        "illuminate/support": "5.*",
+        "maatwebsite/excel": "2.*",
+        "sands/laravel-presenter": "1.*",
+        "illuminate/http": "5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sands\\Presenter\\Excel": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {}
+}
